@@ -1,0 +1,77 @@
+.app{
+  /* width: 100vw; */
+  overflow-x: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fbfbfb;
+}
+.feed{
+  padding-top: 70px;
+  overflow-x: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav{
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 80px;
+  flex-direction: column;
+  background-color: inherit;
+  z-index: 3;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.308);
+}
+
+.logo{
+  font-size: 2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.loaderContainer{
+  width: 200px;
+  height: 200px;
+  display: flex;
+}
+
+.loaderContainer button{
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.loaderContainer button:disabled{
+  /* opacity: 1; */
+  color: black;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.contact a {
+  color: black;
+}
